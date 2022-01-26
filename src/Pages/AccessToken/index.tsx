@@ -51,9 +51,10 @@ export const AccessToken: React.FC = () => {
                     value="telephone"
                     id="telephone"
                     onChange={radioHandler}
+                    style={{width:"20px", height:"20px"}}
                   />
                   <label htmlFor="coffee">
-                    <img src={MobileIcon} width="16px" height="36px" alt="Mobile Icon" />
+                    <img src={MobileIcon} style={{width:"16px", height:"36px", marginLeft: "20px", verticalAlign: "middle"}} alt="Mobile Icon" />
                     {" "}(21) 9*******00
                   </label>
                 </p>  
@@ -65,11 +66,12 @@ export const AccessToken: React.FC = () => {
                     value="email"
                     id="email"
                     onChange={radioHandler}
+                    style={{width:"20px", height:"20px"}}
                   />
                   <label htmlFor="email">
-                    <img src={EnvelopeIcon} width="24px" height="24px" alt="Mobile Icon" />
+                    <img src={EnvelopeIcon} style={{width:"24px", height:"24px", marginLeft: "20px", verticalAlign: "middle"}} alt="Mobile Icon" />
                     {" "}m*******@gmail.com
-                    </label>
+                  </label>
                 </p>   
 
                 <button className="btn" value="Confirmar"> Confirmar</button>
